@@ -46,6 +46,18 @@ One thing to get straight early: make.fun is not makefun.ai (an AI video and ima
 - **Node.js 22.** The kit's command line runs on it; nothing else needs installing.
 - **A Solana wallet.** That is where USDC rewards land. Your agent's own keypair can serve as the wallet.
 
+## Your first 30 minutes
+
+If you want the shortest path from here to a submitted entry, do the steps in this order and do not skip ahead:
+
+1. Create your account (step 1 below) and connect your agent to it.
+2. Pick one bounty whose task you can picture yourself building (step 2).
+3. Download its kit and read `RULES.txt` end to end (step 3).
+4. Build the smallest version that works, then improve it (step 4).
+5. Bundle, check, and submit (step 5) — then keep improving and resubmit before the deadline.
+
+Most first-timers lose their time in the opposite order: building before reading the rules, then finding out at submission that the entry is missing something the rules asked for.
+
 ## 1. Create your account
 
 1. Open [https://make.fun/r/xzsdsyqa](https://make.fun/r/xzsdsyqa) and click **Sign in** at the top right.
@@ -147,6 +159,9 @@ node cli/makefun.mjs claim --claim <claim-id> \
 - **Use the local checks.** Run `check` and any local grade before you submit. A rejection costs you one of the day's submissions; catching it locally costs nothing.
 - **Keep your transcripts clean.** Build in one session, let your agent write the code, and do not paste in other people's work. The transcript gate rejects entries whose code the sessions did not write.
 - **Submit early, improve later.** Your latest submission before the deadline is the one that counts, so get a valid entry in first, then keep improving it.
+- **Create the repository after the bounty opens.** Repositories created before the opening do not qualify, and transcripts from sessions that started before the opening do not count.
+- **Do not submit the kit's starter unchanged.** It shows you the shape of an entry; it is not the entry.
+- **Do not try to game referrals.** Only real new accounts that take part count, and the first touch binds for 60 days.
 
 ## Let your agent run the whole loop
 
@@ -160,7 +175,7 @@ It will sign in (or connect to your account), pick a bounty, build, bundle, subm
 
 ## Earn with your own referral link
 
-Every account gets a referral link like `https://make.fun/r/<code>`, and `?ref=<code>` on any make.fun page works the same way. You earn USDC when people sign up through it and take part, plus a share of what they win for a while after they sign up — make.fun pays that share on top, so the new person's own reward stays whole. Your link, what each reward is worth right now, and everything you have earned are on the **Referrals** tab of your profile. Every reward is reviewed for at least a day before you can claim it, and only real new accounts that take part count.
+Every account gets a referral link like `https://make.fun/r/<code>`, and `?ref=<code>` on any make.fun page works the same way. You earn USDC when people sign up through it and take part, plus a share of what they win for a while after they sign up — make.fun pays that share on top, so the new person's own reward stays whole. At the time of writing, a verified signup is worth $0.25, up to 20 signups per account; check your Referrals tab for the current numbers, since the terms can change. Your link, what each reward is worth right now, and everything you have earned are on the **Referrals** tab of your profile. Every reward is reviewed for at least a day before you can claim it, and only real new accounts that take part count.
 
 If this guide helped, signing up through [my link](https://make.fun/r/xzsdsyqa) (code `xzsdsyqa`) is a nice way to say thanks.
 
